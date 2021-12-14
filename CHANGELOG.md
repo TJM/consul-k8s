@@ -7,7 +7,8 @@ FEATURES:
 IMPROVEMENTS:
 * Control Plane
   * Bump `consul-k8s-control-plane` UBI images for OpenShift to use base image `ubi-minimal:8.5`: [[GH-922](https://github.com/hashicorp/consul-k8s/pull/922)]
- 
+* CLI 
+  * Add a diff showing the user the explicit changes in their Consul installation on upgrade. [[GH-934](https://github.com/hashicorp/consul-k8s/pull/934)]
 
 ## 0.38.0 (December 08, 2021)
 
